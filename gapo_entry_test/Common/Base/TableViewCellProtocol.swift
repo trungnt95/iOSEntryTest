@@ -8,12 +8,12 @@
 import UIKit
 
 protocol ReusableCell: AnyObject {
-    static var identifier: String { get }
+    static var cellIdentifier: String { get }
     static var nib: UINib { get }
 }
 
 extension ReusableCell {
-    static var identifier: String {
+    static var cellIdentifier: String {
         return String(describing: self).components(separatedBy: ".").last ?? ""
     }
 }

@@ -64,7 +64,7 @@ extension NotificationListViewController {
         notificationsTableView.estimatedRowHeight = Config.estimatedCellHeight
         notificationsTableView.showsVerticalScrollIndicator = false
         notificationsTableView.separatorStyle = .none
-        notificationsTableView.register(NotificationItemCell.nib, forCellReuseIdentifier: NotificationItemCell.identifier)
+        notificationsTableView.register(NotificationItemCell.nib, forCellReuseIdentifier: NotificationItemCell.cellIdentifier)
     }
     
     private func setupSearchView() {
@@ -81,7 +81,7 @@ extension NotificationListViewController {
         searchResultsTableView.estimatedRowHeight = Config.estimatedCellHeight
         searchResultsTableView.showsVerticalScrollIndicator = false
         searchResultsTableView.separatorStyle = .none
-        searchResultsTableView.register(NotificationItemCell.nib, forCellReuseIdentifier: NotificationItemCell.identifier)
+        searchResultsTableView.register(NotificationItemCell.nib, forCellReuseIdentifier: NotificationItemCell.cellIdentifier)
     }
     
     private func bindUI() {
@@ -97,7 +97,7 @@ extension NotificationListViewController {
         
         output.notificationItems
             .drive(notificationsTableView.rx.items) { tbv, idx, item in
-                let cell = tbv.dequeueReusableCell(withIdentifier: item.reusable.identifier, for: IndexPath(row: idx, section: 0))
+                let cell = tbv.dequeueReusableCell(withIdentifier: item.reusable.cellIdentifier, for: IndexPath(row: idx, section: 0))
                 item.configCell(cell)
                 return cell
             }
@@ -112,7 +112,7 @@ extension NotificationListViewController {
         
         output.searchItems
             .drive(searchResultsTableView.rx.items) { tbv, idx, item in
-                let cell = tbv.dequeueReusableCell(withIdentifier: item.reusable.identifier, for: IndexPath(row: idx, section: 0))
+                let cell = tbv.dequeueReusableCell(withIdentifier: item.reusable.cellIdentifier, for: IndexPath(row: idx, section: 0))
                 item.configCell(cell)
                 return cell
             }

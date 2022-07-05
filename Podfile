@@ -9,5 +9,7 @@ target 'gapo_entry_test' do
   pod 'RxCocoa', '6.5.0'
   pod 'Moya/RxSwift', '~> 15.0'
   pod 'Kingfisher', '~> 7.0'
+  pod 'DTMvvm', :path => 'Submodules/DTMvvm'
+  #pod 'DTMvvm', :git => 'https://github.com/toandk/DTMvvm.git'
   
 end

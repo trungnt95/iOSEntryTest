@@ -15,7 +15,6 @@
 		1023C22728584F8700DCA963 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023C22628584F8700DCA963 /* UIStoryboard+Extension.swift */; };
 		1023C22A28584FB400DCA963 /* DataEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023C22928584FB400DCA963 /* DataEnums.swift */; };
 		1032D65028588A590037EF94 /* NotificationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032D64F28588A590037EF94 /* NotificationListViewModel.swift */; };
-		1032D65428588C140037EF94 /* noti.json in Resources */ = {isa = PBXBuildFile; fileRef = 1032D65328588C140037EF94 /* noti.json */; };
 		1032D6582858914E0037EF94 /* DomainNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032D6572858914E0037EF94 /* DomainNotification.swift */; };
 		1032D65C285892B60037EF94 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032D65B285892B60037EF94 /* Repository.swift */; };
 		1032D65E2858933B0037EF94 /* NotificationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032D65D2858933B0037EF94 /* NotificationRepository.swift */; };
@@ -35,6 +34,13 @@
 		1032D6812858D2A80037EF94 /* NotificationItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1032D67F2858D2A80037EF94 /* NotificationItemCell.xib */; };
 		1032D6842858D7F90037EF94 /* NotificationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032D6832858D7F90037EF94 /* NotificationItem.swift */; };
 		1032D6862858F0820037EF94 /* Date+Utitities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032D6852858F0820037EF94 /* Date+Utitities.swift */; };
+		105D6FA82872C5C70013D134 /* ListNotificationsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D6FA72872C5C70013D134 /* ListNotificationsVM.swift */; };
+		105D6FAC2872C7800013D134 /* NotificationsVMTableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D6FAB2872C7800013D134 /* NotificationsVMTableBinding.swift */; };
+		105D6FB22872C9390013D134 /* NewNotificationItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D6FB02872C9390013D134 /* NewNotificationItemCell.swift */; };
+		105D6FB32872C9390013D134 /* NewNotificationItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 105D6FB12872C9390013D134 /* NewNotificationItemCell.xib */; };
+		105D6FB82872F9210013D134 /* NewNotificationListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D6FB62872F9210013D134 /* NewNotificationListVC.swift */; };
+		105D6FB92872F9210013D134 /* NewNotificationListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 105D6FB72872F9210013D134 /* NewNotificationListVC.xib */; };
+		10D062DC287295C50017EE8D /* noti.json in Resources */ = {isa = PBXBuildFile; fileRef = 10D062DB287295C50017EE8D /* noti.json */; };
 		E42FA6EEB5420F6156799475 /* Pods_gapo_entry_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ED00D17936CAC0A3031B7C /* Pods_gapo_entry_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +56,6 @@
 		1023C22628584F8700DCA963 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
 		1023C22928584FB400DCA963 /* DataEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEnums.swift; sourceTree = "<group>"; };
 		1032D64F28588A590037EF94 /* NotificationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListViewModel.swift; sourceTree = "<group>"; };
-		1032D65328588C140037EF94 /* noti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = noti.json; path = "../../../../../../Downloads/Gapo-iOS-Challenge-Noti (1)/noti.json"; sourceTree = "<group>"; };
 		1032D6572858914E0037EF94 /* DomainNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainNotification.swift; sourceTree = "<group>"; };
 		1032D65B285892B60037EF94 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		1032D65D2858933B0037EF94 /* NotificationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRepository.swift; sourceTree = "<group>"; };
@@ -70,6 +75,13 @@
 		1032D67F2858D2A80037EF94 /* NotificationItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationItemCell.xib; sourceTree = "<group>"; };
 		1032D6832858D7F90037EF94 /* NotificationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationItem.swift; sourceTree = "<group>"; };
 		1032D6852858F0820037EF94 /* Date+Utitities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utitities.swift"; sourceTree = "<group>"; };
+		105D6FA72872C5C70013D134 /* ListNotificationsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotificationsVM.swift; sourceTree = "<group>"; };
+		105D6FAB2872C7800013D134 /* NotificationsVMTableBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVMTableBinding.swift; sourceTree = "<group>"; };
+		105D6FB02872C9390013D134 /* NewNotificationItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotificationItemCell.swift; sourceTree = "<group>"; };
+		105D6FB12872C9390013D134 /* NewNotificationItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewNotificationItemCell.xib; sourceTree = "<group>"; };
+		105D6FB62872F9210013D134 /* NewNotificationListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotificationListVC.swift; sourceTree = "<group>"; };
+		105D6FB72872F9210013D134 /* NewNotificationListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewNotificationListVC.xib; sourceTree = "<group>"; };
+		10D062DB287295C50017EE8D /* noti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noti.json; sourceTree = "<group>"; };
 		48ED00D17936CAC0A3031B7C /* Pods_gapo_entry_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gapo_entry_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		582ACDBD72FC3A0EBEFC156E /* Pods-gapo_entry_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gapo_entry_test.release.xcconfig"; path = "Target Support Files/Pods-gapo_entry_test/Pods-gapo_entry_test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +155,7 @@
 		1032D64B28588A1F0037EF94 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				105D6FA62872A6510013D134 /* NewNotificationList */,
 				1032D64C28588A2B0037EF94 /* NotificationList */,
 			);
 			path = UI;
@@ -178,7 +191,7 @@
 		1032D65128588B2A0037EF94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1032D65328588C140037EF94 /* noti.json */,
+				10D062DB287295C50017EE8D /* noti.json */,
 				1023C21A285846EA00DCA963 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -284,6 +297,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		105D6FA62872A6510013D134 /* NewNotificationList */ = {
+			isa = PBXGroup;
+			children = (
+				105D6FAD2872C82D0013D134 /* Cell */,
+				105D6FA72872C5C70013D134 /* ListNotificationsVM.swift */,
+				105D6FAB2872C7800013D134 /* NotificationsVMTableBinding.swift */,
+				105D6FB62872F9210013D134 /* NewNotificationListVC.swift */,
+				105D6FB72872F9210013D134 /* NewNotificationListVC.xib */,
+			);
+			path = NewNotificationList;
+			sourceTree = "<group>";
+		};
+		105D6FAD2872C82D0013D134 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				105D6FB02872C9390013D134 /* NewNotificationItemCell.swift */,
+				105D6FB12872C9390013D134 /* NewNotificationItemCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		42103DB31E76B2105AAAB137 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,11 +395,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105D6FB92872F9210013D134 /* NewNotificationListVC.xib in Resources */,
 				1032D6812858D2A80037EF94 /* NotificationItemCell.xib in Resources */,
+				10D062DC287295C50017EE8D /* noti.json in Resources */,
+				105D6FB32872C9390013D134 /* NewNotificationItemCell.xib in Resources */,
 				1023C21E285846EA00DCA963 /* LaunchScreen.storyboard in Resources */,
 				1023C21B285846EA00DCA963 /* Assets.xcassets in Resources */,
 				1023C219285846E900DCA963 /* Main.storyboard in Resources */,
-				1032D65428588C140037EF94 /* noti.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +461,7 @@
 				1032D6782858CFD20037EF94 /* BaseTableViewCell.swift in Sources */,
 				1032D66E2858C9790037EF94 /* Colors.swift in Sources */,
 				1032D664285896000037EF94 /* NotificationServiceImpl.swift in Sources */,
+				105D6FAC2872C7800013D134 /* NotificationsVMTableBinding.swift in Sources */,
 				1032D65028588A590037EF94 /* NotificationListViewModel.swift in Sources */,
 				1032D6802858D2A80037EF94 /* NotificationItemCell.swift in Sources */,
 				1032D6842858D7F90037EF94 /* NotificationItem.swift in Sources */,
@@ -432,12 +469,15 @@
 				1023C216285846E900DCA963 /* NotificationListViewController.swift in Sources */,
 				1032D662285895710037EF94 /* NotificationService.swift in Sources */,
 				1032D6862858F0820037EF94 /* Date+Utitities.swift in Sources */,
+				105D6FB22872C9390013D134 /* NewNotificationItemCell.swift in Sources */,
+				105D6FA82872C5C70013D134 /* ListNotificationsVM.swift in Sources */,
 				1032D6702858C9B40037EF94 /* UIColor+Extension.swift in Sources */,
 				1023C212285846E900DCA963 /* AppDelegate.swift in Sources */,
 				1032D67A2858D0A90037EF94 /* TableViewCellProtocol.swift in Sources */,
 				1032D6582858914E0037EF94 /* DomainNotification.swift in Sources */,
 				1032D65E2858933B0037EF94 /* NotificationRepository.swift in Sources */,
 				1032D67C2858D1560037EF94 /* UITableViewCell+Reusable.swift in Sources */,
+				105D6FB82872F9210013D134 /* NewNotificationListVC.swift in Sources */,
 				1032D6742858CF140037EF94 /* BaseViewController.swift in Sources */,
 				1023C22728584F8700DCA963 /* UIStoryboard+Extension.swift in Sources */,
 				1032D668285898630037EF94 /* APIProviders.swift in Sources */,

@@ -9,6 +9,6 @@ import UIKit
 
 extension UITableViewCell: ReusableCell {
     static var nib: UINib {
-        return UINib(nibName: identifier, bundle: nil)
+        return UINib(nibName: cellIdentifier, bundle: .main)
     }
 }

@@ -1,11 +1,29 @@
 PODS:
+  - Action (5.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - Alamofire (5.6.1)
-  - Kingfisher (7.2.3)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - DTMvvm (0.0.1):
+    - Action
+    - Alamofire
+    - AlamofireImage
+    - Moya
+    - ObjectMapper
+    - PureLayout
+    - RxCocoa
+    - RxSwift
+  - Kingfisher (7.2.4)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
   - Moya/RxSwift (15.0.0):
     - Moya/Core
     - RxSwift (~> 6.0)
+  - ObjectMapper (4.2.0)
+  - PureLayout (3.1.9)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -14,6 +32,7 @@ PODS:
   - RxSwift (6.5.0)
 
 DEPENDENCIES:
+  - DTMvvm (from `Submodules/DTMvvm`)
   - Kingfisher (~> 7.0)
   - Moya/RxSwift (~> 15.0)
   - RxCocoa (= 6.5.0)
@@ -21,21 +40,34 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Action
     - Alamofire
+    - AlamofireImage
     - Kingfisher
     - Moya
+    - ObjectMapper
+    - PureLayout
     - RxCocoa
     - RxRelay
     - RxSwift
 
+EXTERNAL SOURCES:
+  DTMvvm:
+    :path: Submodules/DTMvvm
+
 SPEC CHECKSUMS:
+  Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
-  Kingfisher: 8c2cbe0c11ea4d481542895112682a99e058468e
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  DTMvvm: d8990f0934f6dc1f0ab58d1276ca351484f8ced8
+  Kingfisher: 2457be2121734e69e54a2312ecc0150eb9ae70b3
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
-PODFILE CHECKSUM: 747610e263decbe8b29e931c378a5320357a88c4
+PODFILE CHECKSUM: ec8209b6cbf49ba0703fa83dcdc3a65aebb599e7
 
 COCOAPODS: 1.11.3
